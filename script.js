@@ -16,7 +16,7 @@ vara[0] = new Vara(
   "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
   [
     {
-      text: "16 Jan 2024",
+      text: "16 Apr 2024",
       textAlign: "right",
       y: 20,
       x: -30,
