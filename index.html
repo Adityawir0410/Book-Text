@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Yun~</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="v-center"></div>
+<div id="container">
+  <div class="book">
+    <div class="first paper">
+      <div class="page front contents">
+        <div class="intro">
+          <h2>Happy</h2>
+          <h2>Birthday</h2>
+          <h1>Yunda</h1>
+          <!-- Tempat tombol akan ditambahkan -->
+          
+        </div>
+      </div>
+      <div class="page back"></div>
+    </div>
+    <div class="second paper">
+      <div class="page front contents">
+        <div id="vara-container"></div>
+      </div>
+      <div class="page back"></div>
+    </div>
+    <div class="third paper">
+      <div class="page front contents">
+        <div id="vara-container2"></div>
+      </div>
+      <div class="page back"></div>
+    </div>
+    <div class="fourth paper">
+      <div class="page last front contents">
+        <div id="vara-container3"></div>
+        <div id="nextButtonContainer"></div>
+      </div>
+      <div class="page back"></div>
+    </div>
+    <div class="side"></div>
+    <div class="bottom"></div>
+    <div class="shadow"></div>
+  </div>
+</div>
+  <script src='https://rawcdn.githack.com/akzhy/Vara/c55a1b40c15b808cdd4a047de95c905094be87db/src/vara.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  // Membuat link
+  var linkToKue = $('<a>', {
+    text: 'Ke Kue', // Teks pada link
+    href: 'kue.html', // URL tujuan
+    class: 'link-kue' // Kelas untuk styling
+  });
+
+  // Menambahkan link ke dalam container
+  $('#nextButtonContainer').append(linkToKue);
+});
+</script>
+
+</body>
+</html>
